@@ -16,8 +16,12 @@ Route::get('/', function () {
 })->name('dashboard');
 
 Route::view('starter/dashboardv1', 'starter/dashboardv1')->name('home');
-Route::view('qds', 'qds')->name('qds');
-Route::view('generator', 'generator')->name('generator');
+Route::view('tools/qds', 'tools/qds')->name('qds');
+Route::view('tools/generator', 'tools/generator')->name('generator');
 Route::view('wallet/qae', 'wallet/qae')->name('wallet');
 Route::view('wallet/testwallet', 'wallet/testwallet')->name('testwallet');
-Route::view('404', '404')->name('documentation');
+Route::view('documentation', '404')->name('documentation');
+Route::view('tools/batch', 'tools/batch')->name('batch');
+Route::view('404', '404')->name('404');
+Route::view('tools/paperwallet', 'tools/paperwallet')->name('paperwallet');
+Route::view('tools/parameters', 'tools/parameters')->name('parameters');

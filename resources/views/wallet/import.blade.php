@@ -47,7 +47,7 @@ Send XQR
 Last Transactions
                                         </div>
                                         <div class="tab-pane fade active show" id="pills-manage" role="tabpanel" aria-labelledby="pills-manage-tab">
-Manage QAE Tokens / Send / Receive / Create / Burn etc..
+Manage QAE Tokens
                                         </div>
 
                                     </div>
