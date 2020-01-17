@@ -3,6 +3,7 @@
 <div class="breadcrumb">
     <h1>Qredit Data Server</h1>
 </div>
+<p class="text-small text-muted text-left">Text about QDS </p>
 
 <div class="separator-breadcrumb border-top"></div>
 <div class="card mb-4">
