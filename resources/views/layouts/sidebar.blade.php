@@ -47,8 +47,8 @@
                 <div class="triangle"></div>
             </li>
 
-            <li class="nav-item {{ request()->is('starter/*') ? 'open' : '' }}" data-item="exchanges">
-                <a class="nav-item-hold {{ Route::currentRouteName()=='404' ? 'open' : '' }}" href="{{route('404')}}" href="#">
+            <li class="nav-item">
+                <a class="nav-item-hold {{ Route::currentRouteName()=='exchanges' ? 'open' : '' }}" href="{{route('exchanges')}}" href="exchanges">
                     <i class="nav-icon i-Shop"></i>
                     <span class="nav-text">Exchanges</span>
                 </a>
@@ -111,23 +111,30 @@
         <ul class="childNav" data-parent="explorer">
 
             <li class="nav-item ">
-                <a class="{{ Route::currentRouteName()=='dashboard' ? 'open' : '' }}" href="{{route('dashboard')}}">
+                <a class="{{ Route::currentRouteName()=='transactions' ? 'open' : '' }}" href="{{route('transactions')}}">
                     <i class="nav-icon i-Arrow-Right-2"></i>
                     <span class="item-name">Transactions</span>
                 </a>
             </li>
 
             <li class="nav-item ">
-                <a class="{{ Route::currentRouteName()=='dashboard' ? 'open' : '' }}" href="{{route('dashboard')}}">
+                <a class="{{ Route::currentRouteName()=='topwallets' ? 'open' : '' }}" href="{{route('topwallets')}}">
                     <i class="nav-icon i-Arrow-Right-2"></i>
                     <span class="item-name">Top Wallets</span>
                 </a>
             </li>
 
             <li class="nav-item ">
-                <a class="{{ Route::currentRouteName()=='dashboard' ? 'open' : '' }}" href="{{route('dashboard')}}">
+                <a class="{{ Route::currentRouteName()=='delegates' ? 'open' : '' }}" href="{{route('delegates')}}">
                     <i class="nav-icon i-Arrow-Right-2"></i>
                     <span class="item-name">Delegate Monitor</span>
+                </a>
+            </li>
+
+            <li class="nav-item ">
+                <a class="{{ Route::currentRouteName()=='peers' ? 'open' : '' }}" href="{{route('peers')}}">
+                    <i class="nav-icon i-Arrow-Right-2"></i>
+                    <span class="item-name">Peers</span>
                 </a>
             </li>
 
@@ -196,7 +203,7 @@
             </li>
 
             <li class="nav-item ">
-                <a class="{{ Route::currentRouteName()=='404' ? 'open' : '' }}" href="{{route('404')}}">
+                <a class="{{ Route::currentRouteName()=='voting' ? 'open' : '' }}" href="{{route('voting')}}">
                     <i class="nav-icon i-Arrow-Right-2"></i>
                     <span class="item-name">Voting Calculator</span>
                 </a>
@@ -257,25 +264,6 @@
                 </a>
             </li>
   </ul>
-    <!--=============== Documentation childNav ================-->
-
-    <ul class="childNav" data-parent="exchanges">
-
-            <li class="nav-item ">
-                <a class="{{ Route::currentRouteName()=='overview' ? 'open' : '' }}" href="{{route('overview')}}">
-                    <i class="nav-icon i-Arrow-Right-2"></i>
-                    <span class="item-name">Exchange Overview</span>
-                </a>
-            </li>
-
-            <li class="nav-item ">
-                <a class="{{ Route::currentRouteName()=='altilly' ? 'open' : '' }}" href="{{route('altilly')}}">
-                    <i class="nav-icon i-Arrow-Right-2"></i>
-                    <span class="item-name">Altilly</span>
-                </a>
-            </li>
-
-</ul>
 
 
 <!--=============== Overlay ================-->

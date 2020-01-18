@@ -11,22 +11,35 @@
 |
 */
 
+
+/* home */
 Route::get('/', function () {
     return view('starter.dashboardv1');
 })->name('dashboard');
-
 Route::view('starter/dashboardv1', 'starter/dashboardv1')->name('home');
-Route::view('tools/qds', 'tools/qds')->name('qds');
-Route::view('tools/generator', 'tools/generator')->name('generator');
+Route::view('404', '404')->name('404');
+
+/* wallet */
 Route::view('wallet/qae', 'wallet/qae')->name('wallet');
 Route::view('wallet/testwallet', 'wallet/testwallet')->name('testwallet');
-Route::view('documentation', '404')->name('documentation');
+
+/* tools */
 Route::view('tools/batch', 'tools/batch')->name('batch');
-Route::view('404', '404')->name('404');
 Route::view('tools/paperwallet', 'tools/paperwallet')->name('paperwallet');
 Route::view('tools/parameters', 'tools/parameters')->name('parameters');
+Route::view('tools/qds', 'tools/qds')->name('qds');
+Route::view('tools/generator', 'tools/generator')->name('generator');
+Route::view('tools/voting', 'tools/voting')->name('voting');
+
+/* explorer */
 Route::view('explorer/tokens', 'explorer/tokens')->name('tokens');
-Route::view('exchanges/overview', 'exchanges/overview')->name('overview');
-Route::view('exchanges/altilly', 'exchanges/altilly')->name('altilly');
-Route::view('exchanges/atomars', 'exchanges/atomars')->name('atomars');
-Route::view('exchanges/stex', 'exchanges/stex')->name('stex');
+Route::view('explorer/transactions', 'explorer/transactions')->name('transactions');
+Route::view('explorer/topwallets', 'explorer/topwallets')->name('topwallets');
+Route::view('explorer/delegates', 'explorer/delegates')->name('delegates');
+Route::view('explorer/peers', 'explorer/peers')->name('peers');
+
+/* documentation */
+Route::view('documentation', '404')->name('documentation');
+
+/* exchanges */
+Route::view('exchanges', 'exchanges')->name('exchanges');

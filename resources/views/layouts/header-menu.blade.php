@@ -4,9 +4,6 @@
     </div>
 
     <div class="menu-toggle">
-        <div></div>
-        <div></div>
-        <div></div>
     </div>
 
     <div class="d-flex align-items-center">
@@ -20,7 +17,18 @@
 
     <div class="header-part-right center" style="margin-right: 10px;">
         <!-- XQR Value -->
-       <p class="text-small text-muted center">Height: 5,521,733 | Network: Main | Supply: 739,962,140 XQR | Market Cap: $328,321.202 | XQR/USD:0.0044$</p>
+       <?php
+
+    $myData = file_get_contents("https://api.coingecko.com/api/v3/simple/price?ids=QREDIT&vs_currencies=USD");
+    $myObject = json_decode($myData);
+    $myObjectMap = $myObject;
+    foreach($myObjectMap as $key => $item):
+?>
+
+         <p class="text-small text-muted left">1 XQR = $<?PHP echo $item->usd; ?> </p>
+
+
+<?php endforeach; ?>
     </div>
 
 </div>

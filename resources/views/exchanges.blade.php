@@ -48,7 +48,7 @@
                                     <tbody>
                                         <tr>
                                             <th scope="row">1</th>
-                                            <td><a class="{{ Route::currentRouteName()=='altilly' ? 'open' : '' }}" href="{{route('altilly')}}">Altilly</td>
+                                            <td><span data-toggle="tooltip" data-placement="top" data-original-title="Launched in 2018 and based in Sweden.">Altilly</span></td>
                                             <td><a href="https://altilly.com">altilly.com</a></td>
                                             <td>$ 78.291</td>
                                             <td>xx</td>
@@ -59,7 +59,7 @@
                                         </tr>
                                         <tr>
                                             <th scope="row">2</th>
-                                            <td><a class="{{ Route::currentRouteName()=='stex' ? 'open' : '' }}" href="{{route('stex')}}">STEX</td>
+                                            <td>STEX</td>
                                             <td><a href="https://stex.com">stex.com</a></td>
                                             <td>$ 33.831.828</td>
                                             <td>xx</td>
@@ -70,7 +70,7 @@
                                         </tr>
                                         <tr>
                                             <th scope="row">3</th>
-                                            <td><a class="{{ Route::currentRouteName()=='atomars' ? 'open' : '' }}" href="{{route('atomars')}}">Atomars</td>
+                                            <td>Atomars</td>
                                             <td><a href="https://atomars.com">atomars.com</a></td>
                                             <td>xx</td>
                                             <td>xx</td>
@@ -81,29 +81,29 @@
                                         </tr>
                                         <tr>
                                             <th scope="row">4</th>
-                                            <td><a class="{{ Route::currentRouteName()=='atomars' ? 'open' : '' }}" href="{{route('atomars')}}">TradeSatoshi</td>
+                                            <td><span data-toggle="tooltip" data-placement="top" data-original-title="Please avoid this exchange.">TradeSatoshi</span></td>
                                             <td><a href="https://atomars.com">tradesatoshi.com</a></td>
                                             <td>xx</td>
                                             <td>xx</td>
                                             <td><i class="nav-icon i-Close-Window font-weight-bold"></i></td>
                                             <td><i class="nav-icon i-Close-Window font-weight-bold"></i></td>
                                             <td> <i class="nav-icon i-Yes font-weight-bold"></i></td>
-                                             <td><span class="btn badge badge-danger" data-toggle="tooltip" data-placement="top" data-original-title="Wallets in maintenance for months. Funds locked. No reply on tickets." aria-describedby="popover973417">Warning!</span></td>
+                                             <td><span class="btn badge badge-danger" data-toggle="tooltip" data-placement="top" data-original-title="Wallets in maintenance for months. Funds locked. No reply on tickets.">Warning!</span></td>
                                         </tr>
                                        <tr>
                                             <th scope="row">5</th>
-                                            <td><a class="{{ Route::currentRouteName()=='atomars' ? 'open' : '' }}" href="{{route('atomars')}}">FinexBox</td>
+                                            <td>FinexBox</td>
                                             <td><a href="https://atomars.com">finexbox.com</a></td>
                                             <td>xx</td>
                                             <td>xx</td>
                                             <td><i class="nav-icon i-Close-Window font-weight-bold"></i></td>
                                             <td><i class="nav-icon i-Close-Window font-weight-bold"></i></td>
                                             <td> <i class="nav-icon i-Yes font-weight-bold"></i></td>
-                                            <td><span class="btn badge badge-danger" data-toggle="tooltip" data-placement="top" data-original-title="Fake Volume." aria-describedby="popover973417">Warning!</span></td>
+                                            <td><span class="btn badge badge-danger" data-toggle="tooltip" data-placement="top" data-original-title="Fake Volume.">Warning!</span></td>
                                         </tr>
                                         <tr>
                                             <th scope="row">6</th>
-                                            <td><a class="{{ Route::currentRouteName()=='atomars' ? 'open' : '' }}" href="{{route('atomars')}}">BitexLive</td>
+                                            <td>BitexLive</td>
                                             <td><a href="https://atomars.com">bitexlive.com</a></td>
                                             <td>xx</td>
                                             <td>xx</td>
@@ -114,7 +114,7 @@
                                         </tr>
                                         <tr>
                                             <th scope="row">7</th>
-                                            <td><a class="{{ Route::currentRouteName()=='atomars' ? 'open' : '' }}" href="{{route('atomars')}}">SatoExchange</td>
+                                            <td>SatoExchange</td>
                                             <td><a href="https://atomars.com">satoexchange.com</a></td>
                                             <td>xx</td>
                                             <td>xx</td>
@@ -125,7 +125,7 @@
                                         </tr>
                                         <tr>
                                             <th scope="row">8</th>
-                                            <td><a class="{{ Route::currentRouteName()=='atomars' ? 'open' : '' }}" href="{{route('atomars')}}">Graviex</td>
+                                            <td>Graviex</td>
                                             <td><a href="https://atomars.com">graviex.com</a></td>
                                             <td>xx</td>
                                             <td>xx</td>
@@ -136,7 +136,7 @@
                                         </tr>
                                         <tr>
                                             <th scope="row">9</th>
-                                            <td><a class="{{ Route::currentRouteName()=='atomars' ? 'open' : '' }}" href="{{route('atomars')}}">Alterdice</td>
+                                            <td>Alterdice</td>
                                             <td><a href="https://atomars.com">alterdice.com</a></td>
                                             <td>xx</td>
                                             <td>xx</td>
