@@ -257,9 +257,28 @@
                 </a>
             </li>
   </ul>
+    <!--=============== Documentation childNav ================-->
+
+    <ul class="childNav" data-parent="exchanges">
+
+            <li class="nav-item ">
+                <a class="{{ Route::currentRouteName()=='overview' ? 'open' : '' }}" href="{{route('overview')}}">
+                    <i class="nav-icon i-Arrow-Right-2"></i>
+                    <span class="item-name">Exchange Overview</span>
+                </a>
+            </li>
+
+            <li class="nav-item ">
+                <a class="{{ Route::currentRouteName()=='altilly' ? 'open' : '' }}" href="{{route('altilly')}}">
+                    <i class="nav-icon i-Arrow-Right-2"></i>
+                    <span class="item-name">Altilly</span>
+                </a>
+            </li>
+
+</ul>
 
 
-
+<!--=============== Overlay ================-->
   </div>
     <div class="sidebar-overlay"></div>
 </div>

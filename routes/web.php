@@ -26,3 +26,7 @@ Route::view('404', '404')->name('404');
 Route::view('tools/paperwallet', 'tools/paperwallet')->name('paperwallet');
 Route::view('tools/parameters', 'tools/parameters')->name('parameters');
 Route::view('explorer/tokens', 'explorer/tokens')->name('tokens');
+Route::view('exchanges/overview', 'exchanges/overview')->name('overview');
+Route::view('exchanges/altilly', 'exchanges/altilly')->name('altilly');
+Route::view('exchanges/atomars', 'exchanges/atomars')->name('atomars');
+Route::view('exchanges/stex', 'exchanges/stex')->name('stex');
