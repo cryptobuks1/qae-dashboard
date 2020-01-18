@@ -4,6 +4,9 @@
     </div>
 
     <div class="menu-toggle">
+                <div></div>
+        <div></div>
+        <div></div>
     </div>
 
     <div class="d-flex align-items-center">
