@@ -24,4 +24,10 @@
         </div>
     </div>
 </div>
+
+<style>
+.btn.btn-rounded, .btn.rounded {
+    margin:5px;
+}
+</style>
 <!-- fotter end -->
