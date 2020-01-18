@@ -25,3 +25,4 @@ Route::view('tools/batch', 'tools/batch')->name('batch');
 Route::view('404', '404')->name('404');
 Route::view('tools/paperwallet', 'tools/paperwallet')->name('paperwallet');
 Route::view('tools/parameters', 'tools/parameters')->name('parameters');
+Route::view('explorer/tokens', 'explorer/tokens')->name('tokens');

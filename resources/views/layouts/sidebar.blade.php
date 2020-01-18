@@ -132,9 +132,9 @@
             </li>
 
             <li class="nav-item ">
-                <a class="{{ Route::currentRouteName()=='dashboard' ? 'open' : '' }}" href="{{route('dashboard')}}">
+                <a class="{{ Route::currentRouteName()=='tokens' ? 'open' : '' }}" href="{{route('tokens')}}">
                     <i class="nav-icon i-Arrow-Right-2"></i>
-                    <span class="item-name">QAE Overview</span>
+                    <span class="item-name">QAE Tokens</span>
                 </a>
             </li>
 
